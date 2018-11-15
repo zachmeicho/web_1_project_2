@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    font-family: 'Museo', serif;
+  }
+
+  @font-face {
+    font-family: 'Museo';
+    src: url("assets/fonts/museo/museo-300-webfont.eot");
+    src: 
+    url("assets/museo/museo-300-webfont.woff") format("woff"),
+    url("assets/museo/museo-300-webfont.ttf") format("truetype"),
+    url("assets/museo/museo-300-webfont.svg#filename") format("svg");
+    }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .nav {
+    display: flex;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social {
+      display:flex;
+      flex-wrap: wrap;
+      width: 300px;
+      flex-direction: column;
+  }
+
+.size {
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.spaceright {
+  margin-right: 5px;
+}
+
+  .sociallinks {
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+.icons {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 50px;
+    width: 500px;
+    align-items: center;
+  }
+  
+  h6 {
+    padding-right: 50px;
+  }
+
+  .feature {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 10px solid white;
+  }
+
+  .positionrelative {
+    position: relative;
+  }
+
+  .positionabsolute1 {
+    position: absolute;
+    height: 60px;
+    top: 260px;
+    right: 890px;
+  }
+
+  .positionabsolute2 {
+    position: absolute;
+    height: 60px;
+    left: 890px;
+    top: 260px;
+  }
+
+  .featurebanner {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  
+  .gallerysection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .gallery {
+    width: 20%;
+    margin: 2%
+  }
+  
+  .galleryimg {
+    width: 100%;
+  }
+
+  .navcenter {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .gallerysection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .galleryimg {
+    width: 100%;
+  }
+  
+  .gallery {
+    width: 20%;
+    margin: 2%;
+  }
+
+  .button {
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+  }
+  
+  .button:hover {
+    color: black;
+  }
+
+  .centerbutton {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:40px;
+  }
+  
+  .footerbanner {
+    text-align: center;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: grey;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 15px 0px;
+    color: white;
+  }
+  
+  
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .footerthirds {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 20%;
+    margin: 4%;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .footergallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 300px;
+      align-items: center;
+    }
+  
+  .search {
+    font-size: 1.2em;
+    color: grey;
+    height: 30px;
+    width: 250px;
+    padding-top: 7px;
+    padding-left: 20px;
+    background-color: white;
+  }
+  
+  .width {
+    width: 500px;
+  }
+
+  .greybackground {
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+
+  .darkgreybackground {
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 20px;
+    padding-right: 15px;
+  }
+
+  .footernavbar {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 210px;
+    align-items: center;
+  }
+
+  .footerspace {
+    margin: 10px 10px;
+  }
+
+  .white {
+    color:white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: grey;
+  }
